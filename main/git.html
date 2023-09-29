@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>git笔记</title>
+</head>
+<body>
+    <a href="fun.html">返回</a>
+    <h1>本笔记整理自 B站@GeekHour</h1>
+    <h2>#号后为中文注解 中间为需填写的内容</h2>
+    <a href="git_图文.html">图文版</a>
+    <p><br></p>
+    <div>
+        
+        <h3>初始化配置</h3>
+        <p>git config --global user.name "名称"
+            <br>git config --global user.email 邮箱&emsp;&emsp;&emsp;#不一定要真实
+            <br>git config --global credential.helper store&emsp;&emsp;&emsp;#保存
+            <br>git config --global --list&emsp;&emsp;&emsp;#查看信息</p>
+        <h3>新建仓库</h3>
+        <p>
+            仓库 : 目录
+            <br>git init&emsp;&emsp;&emsp;#本地创建
+            <br>git clone url&emsp;&emsp;&emsp;#克隆github 上的</p>
+        <h3>添加和提交文件</h3>
+        <p>
+            git status&emsp;&emsp;&emsp;#查看仓库的状态<br>
+            git add 文件名.txt&emsp;&emsp;&emsp;#添加到暂存区
+            <br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;#可使用通配符, 例如: git add *.txt
+            <br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;#也可以使用目录, 例如: git add .
+        </p>
+        <h3>回退版本</h3>
+        <p>
+            git reset
+        </p>
+        
+    </div>
+    
+</body>
+</html>

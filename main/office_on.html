@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>office激活 图文教程</title>
+</head>
+<body>
+    <a href="main_app.html">返回</a>
+    <div>
+        <h2>一、 </h2>
+        <p>https://www.microsoft.com/en-us/download/details.aspx?id=49117</p>
+        <img src="../office/office_1.jpg">
+        <h3>运行下载出来的程序 下载到单独的文件夹中 (文件夹路径有中文后续易报错</h3>
+    </div>
+    <div>
+        <h2>二、 </h2>
+        <p>https://config.office.com/deploymentsettings</p>
+        <p></p>
+        <h3>产品和版本</h3>
+        <img src="../office/office_2.jpg">
+        <p></p>
+        <img src="../office/office_3.jpg">
+        <h3>语言</h3>
+        <h4>主要语言 -> 简体中文</h4>
+        <h3>授权和激活</h3>
+        <img src="../office/office_4.jpg">
+        <h2>其余不用更改</h2>
+        <img src="../office/5.jpg">
+        <p></p>
+        <img src="../office/6.jpg">
+        <p></p>
+        <img src="../office/7.jpg">
+        <h2>将下载的.xml文件放入 一步骤中的文件夹</h2>
+    </div>
+    <div>
+        <h1>三、 </h1>
+        <h2>复制 一步骤中文件夹 的路径</h2>
+        <h2>用管理员打开cmd : 开始菜单 -> Windows 系统 -> 命令提示符 (也可以搜索 -> 右键 -> 更多 -> 管理员运行 <h2>
+        <h2>"slmgr /skms kms.03k.org" (每行操作后都要回车</h2>
+        <h2>"slmgr /ato"</h2>
+        <h2>输入盘符 例: " E: " </h2>
+        <h2>"cd"  ctrl + V 粘贴刚才复制的路径 例: "cd E:\office" 结果: E:\office></h2>
+        <h2>"setup /download config.xml" 成功会有下一行出现(会比较久,0~60分钟) 如若时间过长:文件夹路径\Office 右键Data文件夹 -> 属性可查看大小 卡在1.86GB可关掉面板按上述操作重新打开即可 如若报错:检查是否有中文路径 且是否有管理员权限</h2>
+        <h2>"setup /configure config.xml" 会弹出页面安装(0~40分钟,这里时间完全按网速) </h2>
+        <h1>最后在开始菜单打开即可 未激活请重启</h1>
+    </div>
+</body>
+</html>

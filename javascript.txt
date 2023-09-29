@@ -1,0 +1,27 @@
+var a = 111                 变量
+console.log('nihao')        控制台打印
+alert(a)                    窗口打印
+document                    全部HTML代码
+
+<input type="password" id="name">                 元素存在
+var enelt = document.getElementById('name')       获取
+enelt.type = 'txt'                                更改
+
+示例(更改字体):
+<div id="kmx">
+    114514                                        元素存在
+</div>
+var ent = document.getElementById('kmx')          获取
+ent.innerHTML='新的字'                             更改(也可以加标签)
+
+ent.onclick = 函数名                               点击->改变
+    onchange                                      改变->改变
+ent.style.css属性=新的值                            更改css
+ent.style.left  = 10px
+
+
+定义函数:
+function 函数名（变量名）
+    {
+        函数内容；
+    }
